@@ -44,4 +44,4 @@ def delete_comment():
     return redirect(url_for("main"))
 
 if __name__ == "__main__":
-    sample.run(host="0.0.0.0", port=8080)
+    produce("localhost", "192.168.1.44")
